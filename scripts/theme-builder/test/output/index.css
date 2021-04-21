@@ -1,0 +1,61 @@
+/**
+ * Copyright © INOVUA TRADING.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+.fake-rule {
+  color: red;
+}
+
+.react-flex {
+  display: flex;
+}
+
+.react-flex-from-a {
+  color: magenta;
+}
+
+.react-virtual-list-pro {
+  color: blue;
+}
+
+.react-virtual-list-pro--color-red {
+  color: red;
+}
+
+.react-virtual-list-pro--default-theme {
+  background: red;
+}
+
+.react-toolkit-custom-component {
+  display: flex;
+  color: red;
+}
+.react-toolkit-custom-component {
+  display: flex;
+  color: red;
+}
+
+.react-toolkit-custom-component {
+  display: flex;
+  color: red;
+}
+
+.react-toolkit-custom-component {
+  display: flex;
+  color: red;
+}
+
+.main-a {
+  color: red;
+}
+
+.should-not-be-here {
+  color: red;
+}
+
+.react-toolkit-custom-component--theme-default {
+  color: 'theme';
+}

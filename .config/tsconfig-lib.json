@@ -1,0 +1,20 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "../lib",
+    "allowJs": true,
+    "declaration": false,
+    "module": "commonjs",
+    "removeComments": true
+  },
+  "include": [
+    "../community-edition/**/*.ts",
+    "../community-edition/**/*.tsx",
+    "../community-edition/**/*.js",
+    "../enterprise-edition/**/*.ts",
+    "../enterprise-edition/**/*.tsx",
+    "../enterprise-edition/**/*.js"
+  ],
+  "exclude": ["node_modules", ".next"]
+}

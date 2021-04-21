@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig-lib.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": [
+    "../community-edition/**/*.ts",
+    "../community-edition/**/*.tsx",
+    "../enterprise-edition/**/*.ts",
+    "../enterprise-edition/**/*.tsx"
+  ]
+}

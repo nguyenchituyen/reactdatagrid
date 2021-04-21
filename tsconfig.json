@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["dom", "es2017"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "sourceMap": false,
+    "target": "esnext",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "@inovua/reactdatagrid-community/*": ["./community-edition/*"]
+    }
+  },
+  "include": ["./**/*.ts", "./**/*.tsx"],
+  "exclude": ["node_modules", "lib", ".next", "out", "examples"]
+}

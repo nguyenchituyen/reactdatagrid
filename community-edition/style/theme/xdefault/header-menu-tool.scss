@@ -1,0 +1,42 @@
+/**
+ * Copyright © INOVUA TRADING.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+@import './variables.scss';
+
+.InovuaReactDataGrid--theme-#{$THEME_NAME} {
+  .InovuaReactDataGrid__column-header__menu-tool {
+    border-left: none;
+    border-right: none;
+    margin-right: 8px;
+    padding: 1px;
+
+    svg {
+      transform: translateY(0);
+      pointer-events: none;
+      transition: transform 0.2s;
+
+      &:active {
+        transform: translateY(1px);
+      }
+    }
+
+    &:hover {
+      svg {
+        fill: $INOVUA_DATAGRID_FIELD_ACTIVE_COLOR;
+      }
+    }
+  }
+
+  .InovuaReactDataGrid__column-header--align-end.InovuaReactDataGrid__column-header--direction-ltr,
+  .InovuaReactDataGrid__column-header--align-start.InovuaReactDataGrid__column-header--direction-rtl {
+    & > .InovuaReactDataGrid__column-header__menu-tool {
+      border-left: none;
+      border-right: none;
+      margin-left: 8px;
+    }
+  }
+}
